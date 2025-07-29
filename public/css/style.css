@@ -1,0 +1,15 @@
+.navbar-nav .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+
+body {
+  /* pastikan body selalu punya ruang di bawah setinggi footer (~56px) */
+  padding-bottom: 60px;
+}
+
+.materi-content img,
+.materi-content iframe {
+  max-width: 100%;
+  height: auto;
+}
